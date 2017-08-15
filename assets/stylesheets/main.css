@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Josefin Sans", sans-serif;
+  width: 80%; }
+
+#icon {
+  display: flex;
+  align-items: center; }
+
+nav {
+  display: flex;
+  align-items: center; }
+
+#icon img {
+  height: 50px;
+  margin: 5px; }
+#icon h3 {
+  margin: 5px;
+  font-size: 25px; }
+
+#section1 {
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  width: 80%; }
+  #section1 #section1_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    #section1 #section1_body #header {
+      font-size: 54px;
+      color: #364655;
+      margin: 0;
+      padding: 0;
+      line-height: 1.3em; }
+    #section1 #section1_body #text {
+      font-size: 24px;
+      color: #627382;
+      margin: 0 0 55px 0;
+      padding: 0; }
+    #section1 #section1_body .button {
+      display: flex; }
+      #section1 #section1_body .button #start {
+        margin-left: 20px; }
+  #section1 #section1_image {
+    display: flex; }
+    #section1 #section1_image img {
+      padding-top: 100px; }
+
+#list {
+  font-family: "Josefin Sans", sans-serif;
+  width: 80%;
+  display: flex;
+  justify-content: space-around; }
+  #list .list_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0; }
+    #list .list_box #box1 {
+      background-color: #FDB8F5; }
+    #list .list_box #box2 {
+      background-color: #4f77ff; }
+    #list .list_box #box3 {
+      background-color: #75cfd6; }
+    #list .list_box .list_number {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      font-size: 24px;
+      color: white;
+      width: 67px;
+      height: 47px;
+      border-radius: 100%;
+      padding-top: 24px; }
+    #list .list_box .list_text {
+      max-width: 250px;
+      margin: 20px 100px;
+      font-size: 22px;
+      color: #364655;
+      line-height: 1.2;
+      text-align: center; }
+
+.list_box:hover {
+  background-color: #e6e6e6; }
+
+body {
+  box-sizing: border-box; }
+
+button {
+  height: 50px;
+  border-radius: 4px;
+  width: 110px;
+  font-size: 14px; }
+
+#login {
+  background-color: white;
+  color: #9B9B9B;
+  border: none; }
+
+#signup {
+  background-color: #4f77ff;
+  color: white;
+  border: none; }
+
+#how {
+  background-color: white;
+  color: #4f77ff;
+  border: .5px solid #4f77ff;
+  width: 160px; }
+
+#start {
+  background-color: #4f77ff;
+  color: white;
+  border: .5px solid #4f77ff;
+  width: 160px; }
+
+#organization {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/*# sourceMappingURL=main.css.map */

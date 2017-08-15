@@ -1,0 +1,31 @@
+$font: 'Josefin Sans', sans-serif;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: $font;
+  width: 80%
+}
+
+#icon {
+  display: flex;
+  align-items: center;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+#icon {
+  img {
+    height: 50px;
+    margin: 5px;
+  }
+
+  h3 {
+    margin: 5px;
+    font-size: 25px;
+  }
+}

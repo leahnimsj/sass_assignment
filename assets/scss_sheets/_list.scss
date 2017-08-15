@@ -1,0 +1,55 @@
+$font: 'Josefin Sans', sans-serif;
+
+#list {
+  font-family: $font;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+
+    .list_box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 0;
+
+        #box1 {
+          background-color: #FDB8F5;
+        }
+
+        #box2 {
+          background-color: #4f77ff;
+        }
+
+        #box3 {
+          background-color: #75cfd6;
+        }
+
+
+      .list_number {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        font-size: 24px;
+        color: white;
+        width: 67px;
+        height: 47px;
+        border-radius: 100%;
+        padding-top: 24px;
+
+      }
+
+      .list_text {
+        max-width: 250px;
+        margin: 20px 100px;
+        font-size: 22px;
+        color: #364655;
+        line-height: 1.2;
+        text-align: center;
+      }
+    }
+}
+
+.list_box:hover {
+  background-color: lighten(gray, 40%);
+}

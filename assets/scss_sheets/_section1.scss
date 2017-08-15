@@ -1,0 +1,46 @@
+$font: 'Josefin Sans', sans-serif;
+#section1 {
+  display: flex;
+  align-items: center;
+  font-family: $font;
+  width: 80%;
+
+
+  #section1_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+      #header {
+        font-size: 54px;
+        color: #364655;
+        margin: 0;
+        padding: 0;
+        line-height: 1.3em;
+      }
+
+      #text {
+        font-size: 24px;
+        color: #627382;
+        margin: 0 0 55px 0;
+        padding: 0;
+      }
+
+      .button {
+        display: flex;
+
+        #start {
+          margin-left: 20px;
+        }
+      }
+  }
+
+  #section1_image {
+    display: flex;
+
+    img {
+      padding-top: 100px;
+    }
+  }
+
+}

@@ -1,0 +1,47 @@
+@import "_header";
+@import "_section1";
+@import "_list";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  box-sizing: border-box;
+}
+
+button {
+    height: 50px;
+    border-radius: 4px;
+    width: 110px;
+    font-size: 14px;
+}
+
+  #login {
+    background-color: white;
+    color: #9B9B9B;
+    border: none;
+  }
+
+  #signup {
+    background-color: #4f77ff;
+    color: white;
+    border: none;
+  }
+
+  #how {
+    background-color: white;
+    color: #4f77ff;
+    border: .5px solid #4f77ff;
+    width: 160px;
+  }
+
+  #start {
+    background-color: #4f77ff;
+    color: white;
+    border: .5px solid #4f77ff;
+    width: 160px;
+  }
+
+  #organization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

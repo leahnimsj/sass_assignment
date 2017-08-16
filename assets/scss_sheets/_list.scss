@@ -1,10 +1,9 @@
-$font: 'Josefin Sans', sans-serif;
-
 #list {
   font-family: $font;
   width: 80%;
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
 
     .list_box {
       display: flex;
@@ -28,14 +27,15 @@ $font: 'Josefin Sans', sans-serif;
       .list_number {
         display: flex;
         justify-content: center;
+        align-items: center;
         padding: 0;
         margin: 0;
         font-size: 24px;
         color: white;
-        width: 67px;
+        width: 47px;
         height: 47px;
-        border-radius: 100%;
-        padding-top: 24px;
+        border-radius: 50%;
+        // padding-top: 24px;
 
       }
 

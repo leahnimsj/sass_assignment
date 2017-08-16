@@ -53,7 +53,8 @@ nav {
   font-family: "Josefin Sans", sans-serif;
   width: 80%;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-top: 20px; }
   #list .list_box {
     display: flex;
     flex-direction: column;
@@ -68,14 +69,14 @@ nav {
     #list .list_box .list_number {
       display: flex;
       justify-content: center;
+      align-items: center;
       padding: 0;
       margin: 0;
       font-size: 24px;
       color: white;
-      width: 67px;
+      width: 47px;
       height: 47px;
-      border-radius: 100%;
-      padding-top: 24px; }
+      border-radius: 50%; }
     #list .list_box .list_text {
       max-width: 250px;
       margin: 20px 100px;
@@ -86,6 +87,65 @@ nav {
 
 .list_box:hover {
   background-color: #e6e6e6; }
+
+#section2 {
+  font-family: "Josefin Sans", sans-serif;
+  width: 80%;
+  text-align: center; }
+  #section2 h1 {
+    font-size: 42px;
+    margin-top: 80px;
+    margin-bottom: 30px; }
+  #section2 #section2_body {
+    display: flex;
+    justify-content: center; }
+    #section2 #section2_body .package {
+      margin: 10px 125px; }
+      #section2 #section2_body .package h3 {
+        color: #4f77ff;
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 0; }
+      #section2 #section2_body .package #amount {
+        color: #4f77ff;
+        font-size: 52px;
+        margin-top: 30px;
+        margin-bottom: 0; }
+      #section2 #section2_body .package #timing {
+        color: #4f77ff;
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 30px; }
+      #section2 #section2_body .package .package_info {
+        margin-bottom: 30px;
+        font-size: 18px; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  border-top: .5px lightgray solid;
+  padding: 40px; }
+  footer img {
+    width: 50px;
+    height: 50px; }
+  footer #email_request {
+    color: #4f77ff;
+    text-decoration: none;
+    font-size: 18px; }
+  footer #start_trial {
+    color: black;
+    text-decoration: none;
+    font-size: 18px; }
+  footer #socialmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    footer #socialmedia a {
+      margin-bottom: 10px;
+      color: black;
+      text-decoration: none;
+      font-size: 18px; }
 
 body {
   box-sizing: border-box; }
@@ -106,13 +166,13 @@ button {
   color: white;
   border: none; }
 
-#how {
+.white_button {
   background-color: white;
   color: #4f77ff;
   border: .5px solid #4f77ff;
   width: 160px; }
 
-#start {
+.blue_button {
   background-color: #4f77ff;
   color: white;
   border: .5px solid #4f77ff;

@@ -1,7 +1,15 @@
+$font: 'Josefin Sans', sans-serif;
+$fontcolor: #4f77ff;
+$fontsize: 18px;
+
 @import "_header";
 @import "_section1";
 @import "_list";
+@import "_section2";
+@import "_footer";
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
 
 body {
   box-sizing: border-box;
@@ -26,19 +34,21 @@ button {
     border: none;
   }
 
-  #how {
+  .white_button {
     background-color: white;
     color: #4f77ff;
     border: .5px solid #4f77ff;
     width: 160px;
   }
 
-  #start {
+  .blue_button {
     background-color: #4f77ff;
     color: white;
     border: .5px solid #4f77ff;
     width: 160px;
   }
+
+
 
   #organization {
     display: flex;

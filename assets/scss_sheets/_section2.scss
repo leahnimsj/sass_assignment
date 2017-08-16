@@ -1,0 +1,47 @@
+#section2 {
+  font-family: $font;
+  width: 80%;
+  text-align: center;
+
+  h1 {
+    font-size: 42px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
+  #section2_body {
+    display: flex;
+    justify-content: center;
+
+    .package {
+      margin: 10px 125px;
+
+      h3 {
+        color: $fontcolor;
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      #amount {
+        color: $fontcolor;
+        font-size: 52px;
+        margin-top: 30px;
+        margin-bottom: 0;
+      }
+
+      #timing {
+        color: $fontcolor;
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+
+      .package_info {
+        margin-bottom: 30px;
+        font-size: $fontsize;
+      }
+    }
+  }
+
+}

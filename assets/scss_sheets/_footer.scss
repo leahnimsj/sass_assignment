@@ -1,6 +1,5 @@
 footer {
-  display: flex;
-  justify-content: space-between;
+  @include flex-row-position(space-between);
   margin-top: 120px;
   border-top: .5px lightgray solid;
   padding: 40px;
@@ -24,8 +23,7 @@ footer {
 
 
     #socialmedia {
-      display: flex;
-      flex-direction: column;
+      @include flex-column;
       align-items: flex-start;
 
         a {

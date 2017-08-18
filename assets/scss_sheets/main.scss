@@ -2,6 +2,24 @@ $font: 'Josefin Sans', sans-serif;
 $fontcolor: #4f77ff;
 $fontsize: 18px;
 
+@mixin margin_mix($margintop, $marginbottom) {
+  margin-top: $margintop;
+  margin-bottom: $marginbottom;
+
+}
+
+@mixin flex-column() {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-row-position($position) {
+  display: flex;
+  justify-content: $position;
+}
+
+
+
 @import "_header";
 @import "_section1";
 @import "_list";

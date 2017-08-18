@@ -55,6 +55,9 @@ nav {
   display: flex;
   justify-content: space-around;
   margin-top: 20px; }
+  @media (max-width: 1000px) {
+    #list {
+      flex-wrap: wrap; } }
   #list .list_box {
     display: flex;
     flex-direction: column;
@@ -99,6 +102,9 @@ nav {
   #section2 #section2_body {
     display: flex;
     justify-content: center; }
+    @media (max-width: 700px) {
+      #section2 #section2_body {
+        flex-wrap: wrap; } }
     #section2 #section2_body .package {
       margin: 10px 125px; }
       #section2 #section2_body .package h3 {

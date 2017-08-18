@@ -1,6 +1,5 @@
 header {
-  display: flex;
-  justify-content: space-between;
+  @include flex-row-position(space-between);
   font-family: $font;
   width: 80%
 }
